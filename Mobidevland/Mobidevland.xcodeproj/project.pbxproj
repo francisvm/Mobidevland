@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D221D5C81841103500793B37 /* EPAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D221D5C61841103500793B37 /* EPAdViewController.m */; };
+		D221D5C91841103500793B37 /* EPAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D221D5C71841103500793B37 /* EPAdViewController.xib */; };
+		D221D5CC184110E400793B37 /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D221D5CA184110E400793B37 /* EPViewController.m */; };
 		D22714821840CFF10070E85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714811840CFF10070E85D /* Foundation.framework */; };
 		D22714841840CFF10070E85D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714831840CFF10070E85D /* CoreGraphics.framework */; };
 		D22714861840CFF10070E85D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714851840CFF10070E85D /* UIKit.framework */; };
@@ -14,7 +17,6 @@
 		D227148E1840CFF10070E85D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D227148D1840CFF10070E85D /* main.m */; };
 		D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714911840CFF10070E85D /* EPAppDelegate.m */; };
 		D22714951840CFF10070E85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22714931840CFF10070E85D /* Main.storyboard */; };
-		D22714981840CFF10070E85D /* EPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714971840CFF10070E85D /* EPViewController.m */; };
 		D227149A1840CFF10070E85D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22714991840CFF10070E85D /* Images.xcassets */; };
 		D22714A11840CFF10070E85D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714A01840CFF10070E85D /* XCTest.framework */; };
 		D22714A21840CFF10070E85D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714811840CFF10070E85D /* Foundation.framework */; };
@@ -44,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D221D5C51841103500793B37 /* EPAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPAdViewController.h; sourceTree = "<group>"; };
+		D221D5C61841103500793B37 /* EPAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPAdViewController.m; sourceTree = "<group>"; };
+		D221D5C71841103500793B37 /* EPAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPAdViewController.xib; sourceTree = "<group>"; };
+		D221D5CA184110E400793B37 /* EPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
+		D221D5CB184110E400793B37 /* EPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
 		D227147E1840CFF10070E85D /* Mobidevland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobidevland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22714811840CFF10070E85D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D22714831840CFF10070E85D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,8 +62,6 @@
 		D22714901840CFF10070E85D /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
 		D22714911840CFF10070E85D /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
 		D22714941840CFF10070E85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D22714961840CFF10070E85D /* EPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPViewController.h; sourceTree = "<group>"; };
-		D22714971840CFF10070E85D /* EPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPViewController.m; sourceTree = "<group>"; };
 		D22714991840CFF10070E85D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D227149F1840CFF10070E85D /* MobidevlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobidevlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22714A01840CFF10070E85D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -149,13 +154,16 @@
 		D22714871840CFF10070E85D /* Mobidevland */ = {
 			isa = PBXGroup;
 			children = (
-				F4BA64481840F7C100DEA91A /* EPInfoViewController.h */,
-				F4BA64491840F7C100DEA91A /* EPInfoViewController.m */,
 				D22714901840CFF10070E85D /* EPAppDelegate.h */,
 				D22714911840CFF10070E85D /* EPAppDelegate.m */,
 				D22714931840CFF10070E85D /* Main.storyboard */,
-				D22714961840CFF10070E85D /* EPViewController.h */,
-				D22714971840CFF10070E85D /* EPViewController.m */,
+				F4BA64481840F7C100DEA91A /* EPInfoViewController.h */,
+				F4BA64491840F7C100DEA91A /* EPInfoViewController.m */,
+				D221D5CB184110E400793B37 /* EPViewController.h */,
+				D221D5CA184110E400793B37 /* EPViewController.m */,
+				D221D5C51841103500793B37 /* EPAdViewController.h */,
+				D221D5C61841103500793B37 /* EPAdViewController.m */,
+				D221D5C71841103500793B37 /* EPAdViewController.xib */,
 				D22714991840CFF10070E85D /* Images.xcassets */,
 				F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */,
 				D22714881840CFF10070E85D /* Supporting Files */,
@@ -273,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D227149A1840CFF10070E85D /* Images.xcassets in Resources */,
+				D221D5C91841103500793B37 /* EPAdViewController.xib in Resources */,
 				D227148C1840CFF10070E85D /* InfoPlist.strings in Resources */,
 				F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */,
 				D22714951840CFF10070E85D /* Main.storyboard in Resources */,
@@ -294,8 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22714981840CFF10070E85D /* EPViewController.m in Sources */,
 				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
+				D221D5CC184110E400793B37 /* EPViewController.m in Sources */,
+				D221D5C81841103500793B37 /* EPAdViewController.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
 				D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */,
 			);

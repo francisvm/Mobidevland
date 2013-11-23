@@ -14,7 +14,21 @@
 {
     // Override point for customization after application launch.
 
+    //connect to Parse.com
     [Parse setApplicationId:@"BDsbBoyQR66qheRMpQFWPbW3Kg69Huvc7UAGhGzV" clientKey:@"Z8Qrl4qDXVO8NsYGojitQrJ3WAYMZ4HIjwuyo3c8"];
+    //add analytics
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"ImageURL"];
+    [query whereKey:@"url" notEqualTo:@" "];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            NSLog(@"The getFirstObject request failed.");
+        } else {
+            // The find succeeded.
+            [self addURLToPrefsWithID:[object objectId]];
+        }
+    }];
     
     return YES;
 }
@@ -44,6 +58,40 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)addURLToPrefsWithID:(NSString *)objectId {
+    PFQuery *query = [PFQuery queryWithClassName:@"ImageURL"];
+    [query getObjectInBackgroundWithId:objectId block:^(PFObject *imageURL, NSError *error) {
+        // Do something with the returned PFObject in the gameScore variable.
+        NSURL *adURL = [NSURL URLWithString:imageURL[@"url"]];
+        
+        //check for screen resolutions
+        if ([UIScreen instancesRespondToSelector:@selector(scale)])
+        {
+            CGFloat scale = [[UIScreen mainScreen] scale];
+            
+            if (scale > 1.0)
+            {
+                if([[ UIScreen mainScreen ] bounds ].size.height == 568)
+                {
+                    adURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@-568h@2x.png", [adURL absoluteString]]];
+                }
+                else
+                {
+                    adURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@@2x.png", [adURL absoluteString]]];
+                }
+            }
+            else
+            {
+                adURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@.png", [adURL absoluteString]]];
+            }
+        }
+        
+        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+        [prefs setObject:[adURL absoluteString] forKey:@"adURL"];
+        [prefs synchronize];
+    }];
 }
 
 @end
