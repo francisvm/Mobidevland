@@ -42,7 +42,7 @@
     [splashImage setImage:adImage];
     
     // Do any additional setup after loading the view.
-    timer = [NSTimer timerWithTimeInterval:5.0 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:NO];
+    timer = [NSTimer timerWithTimeInterval:0.0 target:self selector:@selector(timerFireMethod:) userInfo:nil repeats:NO];
     
     [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
 }
