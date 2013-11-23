@@ -13,9 +13,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    
+    [Parse setApplicationId:@"BDsbBoyQR66qheRMpQFWPbW3Kg69Huvc7UAGhGzV" clientKey:@"Z8Qrl4qDXVO8NsYGojitQrJ3WAYMZ4HIjwuyo3c8"];
+//    [PFUser enableAutomaticUser];
+//    
+//    PFACL *defaultACL = [PFACL ACL];
+//    
+//    // If you would like all objects to be private by default, remove this line.
+//    [defaultACL setPublicReadAccess:YES];
+//    
+//    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

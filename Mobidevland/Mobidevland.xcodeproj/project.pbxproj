@@ -22,6 +22,14 @@
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
 		F4BA64281840DAA400DEA91A /*  HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BA64271840DAA400DEA91A /*  HomeScreen.xib */; };
+		F4BA642C1840DF9600DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642B1840DF9600DEA91A /* Parse.framework */; };
+		F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */; };
+		F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */; };
+		F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */; };
+		F4BA64341840E1DC00DEA91A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64331840E1DC00DEA91A /* MobileCoreServices.framework */; };
+		F4BA64361840E1E600DEA91A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64351840E1E600DEA91A /* QuartzCore.framework */; };
+		F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64371840E1F100DEA91A /* Security.framework */; };
+		F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64391840E22300DEA91A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,14 @@
 		D22714AA1840CFF10070E85D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
 		F4BA64271840DAA400DEA91A /*  HomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " HomeScreen.xib"; sourceTree = "<group>"; };
+		F4BA642B1840DF9600DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../../../Downloads/ParseStarterProject/Parse.framework; sourceTree = "<group>"; };
+		F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F4BA64331840E1DC00DEA91A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F4BA64351840E1E600DEA91A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4BA64371840E1F100DEA91A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F4BA64391840E22300DEA91A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */,
+				F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */,
+				F4BA64361840E1E600DEA91A /* QuartzCore.framework in Frameworks */,
+				F4BA64341840E1DC00DEA91A /* MobileCoreServices.framework in Frameworks */,
+				F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */,
+				F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */,
+				F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */,
+				F4BA642C1840DF9600DEA91A /* Parse.framework in Frameworks */,
 				D22714841840CFF10070E85D /* CoreGraphics.framework in Frameworks */,
 				D22714861840CFF10070E85D /* UIKit.framework in Frameworks */,
 				D22714821840CFF10070E85D /* Foundation.framework in Frameworks */,
@@ -103,6 +127,14 @@
 		D22714801840CFF10070E85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4BA64391840E22300DEA91A /* SystemConfiguration.framework */,
+				F4BA64371840E1F100DEA91A /* Security.framework */,
+				F4BA64351840E1E600DEA91A /* QuartzCore.framework */,
+				F4BA64331840E1DC00DEA91A /* MobileCoreServices.framework */,
+				F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */,
+				F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */,
+				F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */,
+				F4BA642B1840DF9600DEA91A /* Parse.framework */,
 				D22714811840CFF10070E85D /* Foundation.framework */,
 				D22714831840CFF10070E85D /* CoreGraphics.framework */,
 				D22714851840CFF10070E85D /* UIKit.framework */,
@@ -387,6 +419,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/maximecattet/Downloads/ParseStarterProject,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
 				INFOPLIST_FILE = "Mobidevland/Mobidevland-Info.plist";
@@ -402,6 +438,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/maximecattet/Downloads/ParseStarterProject,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
 				INFOPLIST_FILE = "Mobidevland/Mobidevland-Info.plist";
