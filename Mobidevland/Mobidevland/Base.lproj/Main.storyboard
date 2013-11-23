@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mNh-Vo-06T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mNh-Vo-06T">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="T6f-3V-6Ot">
             <objects>
                 <navigationController definesPresentationContext="YES" id="sC8-lX-8SH" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nOA-Ad-s8b">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -29,7 +30,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="9yG-3t-SYE">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9yG-3t-SYE" id="3vH-a0-TTH">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -207,7 +208,19 @@
                                 </connections>
                             </button>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="yb9-6o-plA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5BF-57-rbK">
+                                <rect key="frame" x="233" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Button" backgroundImage="Register">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llM-DW-bof" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,14 +275,10 @@
         <image name="AppelProjetNormal" width="107" height="102"/>
         <image name="Banner" width="320" height="75"/>
         <image name="BlueBackground" width="107" height="102"/>
-        <image name="BlueBackground" width="107" height="102"/>
-        <image name="BlueBackground" width="107" height="102"/>
         <image name="BottomBar" width="320" height="7"/>
         <image name="ChatNormal" width="107" height="102"/>
         <image name="EventNormal" width="107" height="102"/>
         <image name="FavorisNormal" width="107" height="102"/>
-        <image name="GreenBackground" width="107" height="102"/>
-        <image name="GreenBackground" width="107" height="102"/>
         <image name="GreenBackground" width="107" height="102"/>
         <image name="InfoNormal" width="25" height="25"/>
         <image name="JobsNormal" width="107" height="102"/>
@@ -277,13 +286,10 @@
         <image name="NewNormal" width="107" height="102"/>
         <image name="QRCodeNormal" width="107" height="102"/>
         <image name="RedBackground" width="107" height="102"/>
-        <image name="RedBackground" width="107" height="102"/>
-        <image name="RedBackground" width="107" height="102"/>
+        <image name="Register" width="63" height="25"/>
         <image name="TitleBar" width="320" height="21"/>
         <image name="TouchNormal" width="107" height="101"/>
         <image name="WikiMobiNormal" width="107" height="102"/>
-        <image name="YellowBackground" width="107" height="102"/>
-        <image name="YellowBackground" width="107" height="102"/>
         <image name="YellowBackground" width="107" height="102"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
