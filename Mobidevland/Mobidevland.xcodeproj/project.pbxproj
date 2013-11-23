@@ -30,6 +30,7 @@
 		F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64391840E22300DEA91A /* SystemConfiguration.framework */; };
 		F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */; };
 		F4BA64471840F11E00DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64461840F11E00DEA91A /* Parse.framework */; };
+		F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA64491840F7C100DEA91A /* EPInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		F4BA64391840E22300DEA91A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeImages.xcassets; sourceTree = "<group>"; };
 		F4BA64461840F11E00DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Mobidevland/Parse.framework; sourceTree = "<group>"; };
+		F4BA64481840F7C100DEA91A /* EPInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPInfoViewController.h; sourceTree = "<group>"; };
+		F4BA64491840F7C100DEA91A /* EPInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 		D22714871840CFF10070E85D /* Mobidevland */ = {
 			isa = PBXGroup;
 			children = (
+				F4BA64481840F7C100DEA91A /* EPInfoViewController.h */,
+				F4BA64491840F7C100DEA91A /* EPInfoViewController.m */,
 				D22714901840CFF10070E85D /* EPAppDelegate.h */,
 				D22714911840CFF10070E85D /* EPAppDelegate.m */,
 				D22714931840CFF10070E85D /* Main.storyboard */,
@@ -290,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22714981840CFF10070E85D /* EPViewController.m in Sources */,
+				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
 				D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */,
 			);
