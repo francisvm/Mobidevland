@@ -129,6 +129,31 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Banner" translatesAutoresizingMaskIntoConstraints="NO" id="GXh-3X-LQb">
+                                <rect key="frame" x="0.0" y="78" width="320" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AlauneBackground" translatesAutoresizingMaskIntoConstraints="NO" id="6NP-kt-jMb">
+                                <rect key="frame" x="0.0" y="124" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="À la une" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZT-KE-gWE">
+                                <rect key="frame" x="0.0" y="124" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TitleBar" translatesAutoresizingMaskIntoConstraints="NO" id="VmU-Cu-JUx">
+                                <rect key="frame" x="-1" y="57" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="L'application de la communauté mobile en France" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avJ-gb-yOs">
+                                <rect key="frame" x="1" y="60" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -177,7 +202,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AlauneBackground" width="75" height="21"/>
         <image name="AppelProjetNormal" width="107" height="102"/>
+        <image name="Banner" width="320" height="75"/>
         <image name="BlueBackground" width="107" height="102"/>
         <image name="BottomBar" width="320" height="7"/>
         <image name="ChatNormal" width="107" height="102"/>
@@ -190,6 +217,7 @@
         <image name="NewNormal" width="107" height="102"/>
         <image name="QRCodeNormal" width="107" height="102"/>
         <image name="RedBackground" width="107" height="102"/>
+        <image name="TitleBar" width="320" height="21"/>
         <image name="TouchNormal" width="107" height="101"/>
         <image name="WikiMobiNormal" width="107" height="102"/>
         <image name="YellowBackground" width="107" height="102"/>
