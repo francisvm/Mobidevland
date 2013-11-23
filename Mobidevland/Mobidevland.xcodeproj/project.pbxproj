@@ -21,8 +21,6 @@
 		D22714A31840CFF10070E85D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714851840CFF10070E85D /* UIKit.framework */; };
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
-		F4BA64281840DAA400DEA91A /*  HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BA64271840DAA400DEA91A /*  HomeScreen.xib */; };
-		F4BA642C1840DF9600DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642B1840DF9600DEA91A /* Parse.framework */; };
 		F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */; };
 		F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */; };
 		F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */; };
@@ -31,6 +29,7 @@
 		F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64371840E1F100DEA91A /* Security.framework */; };
 		F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64391840E22300DEA91A /* SystemConfiguration.framework */; };
 		F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */; };
+		F4BA64471840F11E00DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64461840F11E00DEA91A /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +62,6 @@
 		D22714A81840CFF10070E85D /* MobidevlandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobidevlandTests-Info.plist"; sourceTree = "<group>"; };
 		D22714AA1840CFF10070E85D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
-		F4BA64271840DAA400DEA91A /*  HomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " HomeScreen.xib"; sourceTree = "<group>"; };
-		F4BA642B1840DF9600DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../../../../Downloads/ParseStarterProject/Parse.framework; sourceTree = "<group>"; };
 		F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
@@ -73,6 +70,7 @@
 		F4BA64371840E1F100DEA91A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F4BA64391840E22300DEA91A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeImages.xcassets; sourceTree = "<group>"; };
+		F4BA64461840F11E00DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Mobidevland/Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BA64471840F11E00DEA91A /* Parse.framework in Frameworks */,
 				F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */,
 				F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */,
 				F4BA64361840E1E600DEA91A /* QuartzCore.framework in Frameworks */,
@@ -87,7 +86,6 @@
 				F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */,
 				F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */,
 				F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */,
-				F4BA642C1840DF9600DEA91A /* Parse.framework in Frameworks */,
 				D22714841840CFF10070E85D /* CoreGraphics.framework in Frameworks */,
 				D22714861840CFF10070E85D /* UIKit.framework in Frameworks */,
 				D22714821840CFF10070E85D /* Foundation.framework in Frameworks */,
@@ -129,6 +127,7 @@
 		D22714801840CFF10070E85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4BA64461840F11E00DEA91A /* Parse.framework */,
 				F4BA64391840E22300DEA91A /* SystemConfiguration.framework */,
 				F4BA64371840E1F100DEA91A /* Security.framework */,
 				F4BA64351840E1E600DEA91A /* QuartzCore.framework */,
@@ -136,7 +135,6 @@
 				F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */,
 				F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */,
 				F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */,
-				F4BA642B1840DF9600DEA91A /* Parse.framework */,
 				D22714811840CFF10070E85D /* Foundation.framework */,
 				D22714831840CFF10070E85D /* CoreGraphics.framework */,
 				D22714851840CFF10070E85D /* UIKit.framework */,
@@ -148,7 +146,6 @@
 		D22714871840CFF10070E85D /* Mobidevland */ = {
 			isa = PBXGroup;
 			children = (
-				F4BA64271840DAA400DEA91A /*  HomeScreen.xib */,
 				D22714901840CFF10070E85D /* EPAppDelegate.h */,
 				D22714911840CFF10070E85D /* EPAppDelegate.m */,
 				D22714931840CFF10070E85D /* Main.storyboard */,
@@ -271,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D227149A1840CFF10070E85D /* Images.xcassets in Resources */,
-				F4BA64281840DAA400DEA91A /*  HomeScreen.xib in Resources */,
 				D227148C1840CFF10070E85D /* InfoPlist.strings in Resources */,
 				F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */,
 				D22714951840CFF10070E85D /* Main.storyboard in Resources */,
@@ -426,6 +422,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/maximecattet/Downloads/ParseStarterProject,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland/Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
@@ -445,6 +443,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/maximecattet/Downloads/ParseStarterProject,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland/Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
