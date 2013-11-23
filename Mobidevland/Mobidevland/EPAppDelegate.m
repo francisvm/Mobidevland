@@ -13,16 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-//    
+
     [Parse setApplicationId:@"BDsbBoyQR66qheRMpQFWPbW3Kg69Huvc7UAGhGzV" clientKey:@"Z8Qrl4qDXVO8NsYGojitQrJ3WAYMZ4HIjwuyo3c8"];
-//    [PFUser enableAutomaticUser];
-//    
-//    PFACL *defaultACL = [PFACL ACL];
-//    
-//    // If you would like all objects to be private by default, remove this line.
-//    [defaultACL setPublicReadAccess:YES];
-//    
-//    [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
     
     return YES;
 }
