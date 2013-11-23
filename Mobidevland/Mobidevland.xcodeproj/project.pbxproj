@@ -21,6 +21,7 @@
 		D22714A31840CFF10070E85D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714851840CFF10070E85D /* UIKit.framework */; };
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
+		F4BA64281840DAA400DEA91A /*  HomeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BA64271840DAA400DEA91A /*  HomeScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D22714A81840CFF10070E85D /* MobidevlandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobidevlandTests-Info.plist"; sourceTree = "<group>"; };
 		D22714AA1840CFF10070E85D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
+		F4BA64271840DAA400DEA91A /*  HomeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = " HomeScreen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		D22714871840CFF10070E85D /* Mobidevland */ = {
 			isa = PBXGroup;
 			children = (
+				F4BA64271840DAA400DEA91A /*  HomeScreen.xib */,
 				D22714901840CFF10070E85D /* EPAppDelegate.h */,
 				D22714911840CFF10070E85D /* EPAppDelegate.m */,
 				D22714931840CFF10070E85D /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D227149A1840CFF10070E85D /* Images.xcassets in Resources */,
+				F4BA64281840DAA400DEA91A /*  HomeScreen.xib in Resources */,
 				D227148C1840CFF10070E85D /* InfoPlist.strings in Resources */,
 				D22714951840CFF10070E85D /* Main.storyboard in Resources */,
 			);
@@ -468,6 +472,7 @@
 				D22714B21840CFF10070E85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D22714B31840CFF10070E85D /* Build configuration list for PBXNativeTarget "MobidevlandTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				D22714B51840CFF10070E85D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
