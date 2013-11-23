@@ -8,6 +8,7 @@
         <scene sceneID="T6f-3V-6Ot">
             <objects>
                 <navigationController definesPresentationContext="YES" id="sC8-lX-8SH" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ofv-h3-Ilr"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nOA-Ad-s8b">
                         <autoresizingMask key="autoresizingMask"/>
@@ -186,11 +187,12 @@
                         <outlet property="nom" destination="lB6-Cq-iHn" id="jel-GQ-NGY"/>
                         <outlet property="password" destination="70B-nK-bTT" id="D8y-B8-7kr"/>
                         <outlet property="prenom" destination="d04-0y-fnA" id="rno-qZ-kFO"/>
+                        <segue destination="sC8-lX-8SH" kind="modal" identifier="SignUpDone" modalTransitionStyle="coverVertical" id="0Nq-JE-Y9O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBQ-p5-UnI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784" y="-629"/>
+            <point key="canvasLocation" x="781" y="-619"/>
         </scene>
         <!--View Controller - #MOBDL-->
         <scene sceneID="puL-RY-v0t">
@@ -449,5 +451,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="f0Q-xK-bpM"/>
+        <segue reference="0Nq-JE-Y9O"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -74,6 +74,14 @@
         [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (!error) {
                 NSLog(@"Sign up successfull");
+                [PFUser logInWithUsernameInBackground:user.username password:user.password
+                                                block:^(PFUser *user, NSError *error) {
+                                                    if (user) {
+                                                        [self performSegueWithIdentifier:@"SignUpDone" sender:self];
+                                                    } else {
+                                                        // The login failed. Check error to see why.
+                                                    }
+                                                }];
             }
             else {
                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Erreur" message:[error userInfo][@"error"] delegate:self cancelButtonTitle:@"Annuler" otherButtonTitles:@"Ok", nil];
