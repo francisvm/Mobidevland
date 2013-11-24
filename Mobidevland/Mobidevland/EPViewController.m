@@ -119,4 +119,22 @@
     if ([self isConnectedAlert])
         [self performSegueWithIdentifier:@"Touch" sender:self];
 }
+
+- (IBAction)wikiPressed:(id)sender {
+    [self performSegueWithIdentifier:@"Wiki" sender:self];
+}
+
+- (IBAction)qrCodePressed:(id)sender {
+    [self performSegueWithIdentifier:@"QRCode" sender:self];
+}
+
+- (IBAction)projetsPressed:(id)sender {
+    if ([self isConnectedAlert])
+        [self performSegueWithIdentifier:@"Projets" sender:self];
+}
+
+- (IBAction)eventsPressed:(id)sender {
+    if ([self isConnectedAlert])
+        [self performSegueWithIdentifier:@"Events" sender:self];
+}
 @end

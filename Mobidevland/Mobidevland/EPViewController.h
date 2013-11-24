@@ -23,6 +23,10 @@
 - (IBAction)favorisPressed:(id)sender;
 - (IBAction)chatPressed:(id)sender;
 - (IBAction)touchPressed:(id)sender;
+- (IBAction)wikiPressed:(id)sender;
+- (IBAction)qrCodePressed:(id)sender;
+- (IBAction)projetsPressed:(id)sender;
+- (IBAction)eventsPressed:(id)sender;
 
 - (NSMutableArray *) objectArrayToLinkArray:(NSArray *)objectArray;
 
