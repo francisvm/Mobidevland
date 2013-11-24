@@ -905,6 +905,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="d2J-RM-uLd" kind="push" id="mz1-vA-3qb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rd0-7i-DPm">
                                 <rect key="frame" x="20" y="235" width="130" height="130"/>
@@ -1446,8 +1449,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="mz1-vA-3qb"/>
         <segue reference="f0Q-xK-bpM"/>
-        <segue reference="vY4-49-XNy"/>
-        <segue reference="Inm-Wo-dab"/>
+        <segue reference="sNI-CZ-NmC"/>
+        <segue reference="Im1-uA-bTW"/>
     </inferredMetricsTieBreakers>
 </document>
