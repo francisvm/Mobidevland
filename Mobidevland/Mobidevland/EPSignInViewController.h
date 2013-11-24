@@ -14,5 +14,6 @@
     IBOutlet UITextField *password;
 }
 - (IBAction)connectionPressed:(id)sender;
+- (IBAction)facebookConnection:(id)sender;
 
 @end

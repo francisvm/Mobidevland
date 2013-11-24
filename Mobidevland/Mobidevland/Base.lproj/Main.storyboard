@@ -258,6 +258,9 @@
                                 <state key="normal" title="se connecter avec Facebook" image="IcoFacebook" backgroundImage="FacebookNormal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="facebookConnection:" destination="z7g-4z-ogd" eventType="touchUpInside" id="a2W-oW-dSZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ou" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aju-Ni-d1p">
                                 <rect key="frame" x="150" y="139" width="20" height="21"/>
@@ -1451,9 +1454,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="mz1-vA-3qb"/>
         <segue reference="f0Q-xK-bpM"/>
-        <segue reference="sNI-CZ-NmC"/>
+        <segue reference="1Fg-ES-WR6"/>
+        <segue reference="mz1-vA-3qb"/>
         <segue reference="Im1-uA-bTW"/>
     </inferredMetricsTieBreakers>
 </document>

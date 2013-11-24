@@ -45,4 +45,24 @@
                                         }
                                     }];
 }
+
+- (IBAction)facebookConnection:(id)sender {
+    NSArray *permissionsArray = @[ @"user_about_me", @"user_relationships", @"user_birthday", @"user_location"];
+    
+    [PFFacebookUtils logInWithPermissions:permissionsArray block:^(PFUser *user, NSError *error) {
+        if (!user) {
+            if (!error) {
+                NSLog(@"Uh oh. The user cancelled the Facebook login.");
+            } else {
+                NSLog(@"Uh oh. An error occurred: %@", error);
+            }
+        } else if (user.isNew) {
+            NSLog(@"User with facebook signed up and logged in!");
+            [self performSegueWithIdentifier:@"SignInDone" sender:self];
+        } else {
+            NSLog(@"User with facebook logged in!");
+            [self performSegueWithIdentifier:@"SignInDone" sender:self];
+        }
+    }];
+}
 @end
