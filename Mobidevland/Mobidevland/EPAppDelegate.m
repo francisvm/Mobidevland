@@ -31,7 +31,7 @@
             [self addURLToPrefsWithID:[object objectId]];
         }
     }];
-    
+    [EPTools reloadNewsArray];
     
     return YES;
 }

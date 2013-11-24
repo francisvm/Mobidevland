@@ -24,6 +24,11 @@
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
 		F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */; };
+		F486D4C81841C34F0058C1DE /* EPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4C71841C34F0058C1DE /* EPTools.m */; };
+		F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */; };
+		F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */; };
+		F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CF1841C3B00058C1DE /* iCarousel.m */; };
+		F486D4D41841C3BF0058C1DE /* News.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F486D4D31841C3BF0058C1DE /* News.xcassets */; };
 		F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF400184169EF005F8F98 /* EPSignInViewController.m */; };
 		F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */; };
 		F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40618417E97005F8F98 /* EPJobsViewController.m */; };
@@ -76,6 +81,15 @@
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
 		F4850EF218411F3B0031A2B7 /* EPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignUpViewController.h; sourceTree = "<group>"; };
 		F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignUpViewController.m; sourceTree = "<group>"; };
+		F486D4C61841C34F0058C1DE /* EPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTools.h; sourceTree = "<group>"; };
+		F486D4C71841C34F0058C1DE /* EPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTools.m; sourceTree = "<group>"; };
+		F486D4CA1841C3B00058C1DE /* EPNewsTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineViewController.h; sourceTree = "<group>"; };
+		F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineViewController.m; sourceTree = "<group>"; };
+		F486D4CC1841C3B00058C1DE /* EPNewsTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineCell.h; sourceTree = "<group>"; };
+		F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineCell.m; sourceTree = "<group>"; };
+		F486D4CE1841C3B00058C1DE /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		F486D4CF1841C3B00058C1DE /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		F486D4D31841C3BF0058C1DE /* News.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = News.xcassets; sourceTree = "<group>"; };
 		F48EF3FF184169EF005F8F98 /* EPSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignInViewController.h; sourceTree = "<group>"; };
 		F48EF400184169EF005F8F98 /* EPSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignInViewController.m; sourceTree = "<group>"; };
 		F48EF40218416DA8005F8F98 /* EPMyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMyAccountViewController.h; sourceTree = "<group>"; };
@@ -193,6 +207,9 @@
 				F48EF40618417E97005F8F98 /* EPJobsViewController.m */,
 				F48EF4081841832B005F8F98 /* EPPersonalInformationsViewController.h */,
 				F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */,
+				F486D4C91841C3A50058C1DE /* News */,
+				F486D4C61841C34F0058C1DE /* EPTools.h */,
+				F486D4C71841C34F0058C1DE /* EPTools.m */,
 				D22714991840CFF10070E85D /* Images.xcassets */,
 				F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */,
 				D22714881840CFF10070E85D /* Supporting Files */,
@@ -227,6 +244,20 @@
 				D22714A91840CFF10070E85D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F486D4C91841C3A50058C1DE /* News */ = {
+			isa = PBXGroup;
+			children = (
+				F486D4CA1841C3B00058C1DE /* EPNewsTimelineViewController.h */,
+				F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */,
+				F486D4CC1841C3B00058C1DE /* EPNewsTimelineCell.h */,
+				F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */,
+				F486D4CE1841C3B00058C1DE /* iCarousel.h */,
+				F486D4CF1841C3B00058C1DE /* iCarousel.m */,
+				F486D4D31841C3BF0058C1DE /* News.xcassets */,
+			);
+			name = News;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +344,7 @@
 				D221D5C91841103500793B37 /* EPAdViewController.xib in Resources */,
 				D227148C1840CFF10070E85D /* InfoPlist.strings in Resources */,
 				F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */,
+				F486D4D41841C3BF0058C1DE /* News.xcassets in Resources */,
 				D22714951840CFF10070E85D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,11 +365,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */,
+				F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */,
+				F486D4C81841C34F0058C1DE /* EPTools.m in Sources */,
 				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
 				D221D5CC184110E400793B37 /* EPViewController.m in Sources */,
+				F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */,
 				F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */,
 				F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */,
 				D221D5C81841103500793B37 /* EPAdViewController.m in Sources */,
+				F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
 				F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */,
 				D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */,

@@ -20,4 +20,6 @@
 - (IBAction)favorisPressed:(id)sender;
 - (IBAction)chatPressed:(id)sender;
 
+- (NSMutableArray *) objectArrayToLinkArray:(NSArray *)objectArray;
+
 @end

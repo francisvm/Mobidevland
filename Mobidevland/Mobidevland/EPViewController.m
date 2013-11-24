@@ -12,12 +12,23 @@
 
 @end
 
-@implementation EPViewController
+@implementation EPViewController {
+    NSMutableArray *linkArray;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    PFQuery *query = [PFQuery queryWithClassName:@"BannerURL"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            linkArray = [self objectArrayToLinkArray:objects];
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -48,6 +59,18 @@
         NSLog(@"Ok Tapped");
         [self performSegueWithIdentifier:@"GoToSignIn" sender:self];
     }
+}
+
+- (NSMutableArray *) objectArrayToLinkArray:(NSArray *)objectArray {
+    NSMutableArray *linkConvertedArray;
+    linkConvertedArray = [NSMutableArray arrayWithCapacity:[objectArray count]];
+    
+    for (PFObject *object in objectArray) {
+        NSURL *url = [NSURL URLWithString:object[@"url"]];
+        [linkConvertedArray addObject:url];
+    }
+    
+    return linkConvertedArray;
 }
 
 - (void)didReceiveMemoryWarning
