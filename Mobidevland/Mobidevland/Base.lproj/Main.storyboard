@@ -1200,7 +1200,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="#MOBDL" id="cb9-7F-7xs"/>
+                    <navigationItem key="navigationItem" title="#MOBDL" id="cb9-7F-7xs">
+                        <barButtonItem key="backBarButtonItem" title="Articles" id="Ju0-jh-Oc4"/>
+                    </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="carousel" destination="YJw-xc-DVk" id="Lau-tW-qPI"/>
@@ -1211,7 +1213,7 @@
             </objects>
             <point key="canvasLocation" x="-659" y="1713"/>
         </scene>
-        <!--News Detail View Controller - #YOLO-->
+        <!--News Detail View Controller - #MOBDL-->
         <scene sceneID="Dn2-TQ-40B">
             <objects>
                 <viewController id="qhE-4v-1Vf" customClass="EPNewsDetailViewController" sceneMemberID="viewController">
@@ -1338,7 +1340,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="#YOLO" id="0vy-Mq-xIO">
+                    <navigationItem key="navigationItem" title="#MOBDL" id="0vy-Mq-xIO">
                         <barButtonItem key="backBarButtonItem" title="Retour" id="26m-vU-uCR"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
