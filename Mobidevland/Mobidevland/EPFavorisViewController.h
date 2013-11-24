@@ -1,5 +1,5 @@
 //
-//  EPJobsViewController.h
+//  EPFavorisViewController.h
 //  Mobidevland
 //
 //  Created by Maxime Cattet on 24/11/2013.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EPJobsViewController : UIViewController
+@interface EPFavorisViewController : UIViewController
 
 @end

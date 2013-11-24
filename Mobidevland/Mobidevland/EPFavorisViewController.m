@@ -1,18 +1,18 @@
 //
-//  EPJobsViewController.m
+//  EPFavorisViewController.m
 //  Mobidevland
 //
 //  Created by Maxime Cattet on 24/11/2013.
 //  Copyright (c) 2013 EpiPortal. All rights reserved.
 //
 
-#import "EPJobsViewController.h"
+#import "EPFavorisViewController.h"
 
-@interface EPJobsViewController ()
+@interface EPFavorisViewController ()
 
 @end
 
-@implementation EPJobsViewController
+@implementation EPFavorisViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

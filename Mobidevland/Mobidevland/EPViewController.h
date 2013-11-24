@@ -13,12 +13,16 @@
     PFUser *currentUser;
     IBOutlet UIButton *accountButton;
 }
+
+- (IBAction)buttonPressedToView:(id)sender;
+
 - (IBAction)accountButtonPressed:(id)sender;
 - (IBAction)myAccountPressed:(id)sender;
 - (IBAction)jobsPressed:(id)sender;
 - (IBAction)appelAProjetsPressed:(id)sender;
 - (IBAction)favorisPressed:(id)sender;
 - (IBAction)chatPressed:(id)sender;
+- (IBAction)touchPressed:(id)sender;
 
 - (NSMutableArray *) objectArrayToLinkArray:(NSArray *)objectArray;
 

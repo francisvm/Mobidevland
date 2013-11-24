@@ -23,15 +23,16 @@
 		D22714A31840CFF10070E85D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22714851840CFF10070E85D /* UIKit.framework */; };
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
+		F401E26B1841CA78000C3DBC /* EPFavorisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F401E26A1841CA78000C3DBC /* EPFavorisViewController.m */; };
 		F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */; };
 		F486D4C81841C34F0058C1DE /* EPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4C71841C34F0058C1DE /* EPTools.m */; };
 		F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */; };
 		F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */; };
 		F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CF1841C3B00058C1DE /* iCarousel.m */; };
 		F486D4D41841C3BF0058C1DE /* News.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F486D4D31841C3BF0058C1DE /* News.xcassets */; };
+		F48A4B7F1841C86600C1DCF1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48A4B7E1841C86600C1DCF1 /* FacebookSDK.framework */; };
 		F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF400184169EF005F8F98 /* EPSignInViewController.m */; };
 		F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */; };
-		F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40618417E97005F8F98 /* EPJobsViewController.m */; };
 		F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */; };
 		F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */; };
 		F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */; };
@@ -43,7 +44,14 @@
 		F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */; };
 		F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA64491840F7C100DEA91A /* EPInfoViewController.m */; };
 		F4BA644C1841155400DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA644B1841155400DEA91A /* Parse.framework */; };
-		F4D9B0C21841B72A00B7F547 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */; };
+		F4E28F1C1841DBC5005C7D96 /* EPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F1B1841DBC5005C7D96 /* EPUser.m */; };
+		F4E28F1F1841DDA0005C7D96 /* EPTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F1E1841DDA0005C7D96 /* EPTouchViewController.m */; };
+		F4E28F211841E265005C7D96 /* touch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E28F201841E265005C7D96 /* touch.xcassets */; };
+		F4E944181841CE3D0010DA18 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E944161841CE3D0010DA18 /* AddressBook.framework */; };
+		F4E944191841CE3D0010DA18 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E944171841CE3D0010DA18 /* AddressBookUI.framework */; };
+		F4E9441B1841CE640010DA18 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9441A1841CE640010DA18 /* CoreVideo.framework */; };
+		F4E9441D1841CE6F0010DA18 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9441C1841CE6F0010DA18 /* CoreMedia.framework */; };
+		F4E9441F1841CE810010DA18 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9441E1841CE810010DA18 /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +87,8 @@
 		D22714A81840CFF10070E85D /* MobidevlandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobidevlandTests-Info.plist"; sourceTree = "<group>"; };
 		D22714AA1840CFF10070E85D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
+		F401E2691841CA78000C3DBC /* EPFavorisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPFavorisViewController.h; sourceTree = "<group>"; };
+		F401E26A1841CA78000C3DBC /* EPFavorisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPFavorisViewController.m; sourceTree = "<group>"; };
 		F4850EF218411F3B0031A2B7 /* EPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignUpViewController.h; sourceTree = "<group>"; };
 		F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignUpViewController.m; sourceTree = "<group>"; };
 		F486D4C61841C34F0058C1DE /* EPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTools.h; sourceTree = "<group>"; };
@@ -90,12 +100,11 @@
 		F486D4CE1841C3B00058C1DE /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F486D4CF1841C3B00058C1DE /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		F486D4D31841C3BF0058C1DE /* News.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = News.xcassets; sourceTree = "<group>"; };
+		F48A4B7E1841C86600C1DCF1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Mobidevland/FacebookSDK.framework; sourceTree = "<group>"; };
 		F48EF3FF184169EF005F8F98 /* EPSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignInViewController.h; sourceTree = "<group>"; };
 		F48EF400184169EF005F8F98 /* EPSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignInViewController.m; sourceTree = "<group>"; };
 		F48EF40218416DA8005F8F98 /* EPMyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMyAccountViewController.h; sourceTree = "<group>"; };
 		F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMyAccountViewController.m; sourceTree = "<group>"; };
-		F48EF40518417E97005F8F98 /* EPJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPJobsViewController.h; sourceTree = "<group>"; };
-		F48EF40618417E97005F8F98 /* EPJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPJobsViewController.m; sourceTree = "<group>"; };
 		F48EF4081841832B005F8F98 /* EPPersonalInformationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPersonalInformationsViewController.h; sourceTree = "<group>"; };
 		F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPersonalInformationsViewController.m; sourceTree = "<group>"; };
 		F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -109,7 +118,16 @@
 		F4BA64481840F7C100DEA91A /* EPInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPInfoViewController.h; sourceTree = "<group>"; };
 		F4BA64491840F7C100DEA91A /* EPInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPInfoViewController.m; sourceTree = "<group>"; };
 		F4BA644B1841155400DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Mobidevland/Parse.framework; sourceTree = "<group>"; };
-		F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		F4E28F1A1841DBC5005C7D96 /* EPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPUser.h; sourceTree = "<group>"; };
+		F4E28F1B1841DBC5005C7D96 /* EPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPUser.m; sourceTree = "<group>"; };
+		F4E28F1D1841DDA0005C7D96 /* EPTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTouchViewController.h; sourceTree = "<group>"; };
+		F4E28F1E1841DDA0005C7D96 /* EPTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTouchViewController.m; sourceTree = "<group>"; };
+		F4E28F201841E265005C7D96 /* touch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = touch.xcassets; sourceTree = "<group>"; };
+		F4E944161841CE3D0010DA18 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F4E944171841CE3D0010DA18 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F4E9441A1841CE640010DA18 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F4E9441C1841CE6F0010DA18 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F4E9441E1841CE810010DA18 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +135,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E9441F1841CE810010DA18 /* libiconv.dylib in Frameworks */,
+				F4E9441D1841CE6F0010DA18 /* CoreMedia.framework in Frameworks */,
+				F4E9441B1841CE640010DA18 /* CoreVideo.framework in Frameworks */,
+				F4E944181841CE3D0010DA18 /* AddressBook.framework in Frameworks */,
+				F4E944191841CE3D0010DA18 /* AddressBookUI.framework in Frameworks */,
+				F48A4B7F1841C86600C1DCF1 /* FacebookSDK.framework in Frameworks */,
 				F4BA644C1841155400DEA91A /* Parse.framework in Frameworks */,
 				F4BA643A1840E22400DEA91A /* SystemConfiguration.framework in Frameworks */,
 				F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */,
 				F4BA64361840E1E600DEA91A /* QuartzCore.framework in Frameworks */,
 				F4BA64341840E1DC00DEA91A /* MobileCoreServices.framework in Frameworks */,
-				F4D9B0C21841B72A00B7F547 /* FacebookSDK.framework in Frameworks */,
 				F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */,
 				F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */,
 				F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */,
@@ -167,7 +190,12 @@
 		D22714801840CFF10070E85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */,
+				F4E9441E1841CE810010DA18 /* libiconv.dylib */,
+				F4E9441C1841CE6F0010DA18 /* CoreMedia.framework */,
+				F4E9441A1841CE640010DA18 /* CoreVideo.framework */,
+				F4E944161841CE3D0010DA18 /* AddressBook.framework */,
+				F4E944171841CE3D0010DA18 /* AddressBookUI.framework */,
+				F48A4B7E1841C86600C1DCF1 /* FacebookSDK.framework */,
 				F4BA644B1841155400DEA91A /* Parse.framework */,
 				F4BA64391840E22300DEA91A /* SystemConfiguration.framework */,
 				F4BA64371840E1F100DEA91A /* Security.framework */,
@@ -203,16 +231,21 @@
 				F48EF400184169EF005F8F98 /* EPSignInViewController.m */,
 				F48EF40218416DA8005F8F98 /* EPMyAccountViewController.h */,
 				F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */,
-				F48EF40518417E97005F8F98 /* EPJobsViewController.h */,
-				F48EF40618417E97005F8F98 /* EPJobsViewController.m */,
 				F48EF4081841832B005F8F98 /* EPPersonalInformationsViewController.h */,
 				F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */,
+				F401E2691841CA78000C3DBC /* EPFavorisViewController.h */,
+				F401E26A1841CA78000C3DBC /* EPFavorisViewController.m */,
+				F4E28F1D1841DDA0005C7D96 /* EPTouchViewController.h */,
+				F4E28F1E1841DDA0005C7D96 /* EPTouchViewController.m */,
 				F486D4C91841C3A50058C1DE /* News */,
 				F486D4C61841C34F0058C1DE /* EPTools.h */,
 				F486D4C71841C34F0058C1DE /* EPTools.m */,
 				D22714991840CFF10070E85D /* Images.xcassets */,
 				F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */,
+				F4E28F201841E265005C7D96 /* touch.xcassets */,
 				D22714881840CFF10070E85D /* Supporting Files */,
+				F4E28F1A1841DBC5005C7D96 /* EPUser.h */,
+				F4E28F1B1841DBC5005C7D96 /* EPUser.m */,
 			);
 			path = Mobidevland;
 			sourceTree = "<group>";
@@ -344,6 +377,7 @@
 				D221D5C91841103500793B37 /* EPAdViewController.xib in Resources */,
 				D227148C1840CFF10070E85D /* InfoPlist.strings in Resources */,
 				F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */,
+				F4E28F211841E265005C7D96 /* touch.xcassets in Resources */,
 				F486D4D41841C3BF0058C1DE /* News.xcassets in Resources */,
 				D22714951840CFF10070E85D /* Main.storyboard in Resources */,
 			);
@@ -364,14 +398,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F401E26B1841CA78000C3DBC /* EPFavorisViewController.m in Sources */,
 				F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */,
 				F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */,
 				F486D4C81841C34F0058C1DE /* EPTools.m in Sources */,
+				F4E28F1C1841DBC5005C7D96 /* EPUser.m in Sources */,
 				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
 				D221D5CC184110E400793B37 /* EPViewController.m in Sources */,
 				F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */,
 				F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */,
-				F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */,
+				F4E28F1F1841DDA0005C7D96 /* EPTouchViewController.m in Sources */,
 				D221D5C81841103500793B37 /* EPAdViewController.m in Sources */,
 				F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
@@ -508,10 +544,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					Mobidevland,
-					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
+					Mobidevland,
+					Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"ZXingWidget/Classes/**",
+					cpp/core/src,
+				);
 				INFOPLIST_FILE = "Mobidevland/Mobidevland-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -528,10 +571,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					Mobidevland,
-					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
+					Mobidevland,
+					Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"ZXingWidget/Classes/**",
+					cpp/core/src,
+				);
 				INFOPLIST_FILE = "Mobidevland/Mobidevland-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

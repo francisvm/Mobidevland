@@ -35,10 +35,19 @@
     currentUser = [PFUser currentUser];
     if (currentUser){
         [accountButton setTitle:@"Mon Compte" forState:UIControlStateNormal];
+        [accountButton setImage:[UIImage imageNamed:@"LedOn"] forState:UIControlStateNormal];
     }
     else {
         [accountButton setTitle:@"Se Connecter" forState:UIControlStateNormal];
+        [accountButton setImage:[UIImage imageNamed:@"LedOff"] forState:UIControlStateNormal];
     }
+}
+
+- (IBAction)accountButtonPressed:(id)sender {
+    if (currentUser)
+        [self performSegueWithIdentifier:@"MyAccount" sender:self];
+    else
+        [self performSegueWithIdentifier:@"GoToSignIn" sender:self];
 }
 
 - (BOOL)isConnectedAlert{
@@ -79,13 +88,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)accountButtonPressed:(id)sender {
-    if (currentUser)
-        [self performSegueWithIdentifier:@"MyAccount" sender:self];
-    else
-        [self performSegueWithIdentifier:@"GoToSignIn" sender:self];
-}
-
 - (IBAction)myAccountPressed:(id)sender {
     if (currentUser)
         [self performSegueWithIdentifier:@"MyAccount" sender:self];
@@ -111,5 +113,10 @@
 - (IBAction)chatPressed:(id)sender {
     if ([self isConnectedAlert])
         [self performSegueWithIdentifier:@"Chat" sender:self];
+}
+
+- (IBAction)touchPressed:(id)sender {
+    if ([self isConnectedAlert])
+        [self performSegueWithIdentifier:@"Touch" sender:self];
 }
 @end
