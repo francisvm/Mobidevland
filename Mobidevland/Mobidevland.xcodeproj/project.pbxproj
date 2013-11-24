@@ -38,6 +38,7 @@
 		F4BA643C1840E4E800DEA91A /* HomeImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */; };
 		F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA64491840F7C100DEA91A /* EPInfoViewController.m */; };
 		F4BA644C1841155400DEA91A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA644B1841155400DEA91A /* Parse.framework */; };
+		F4D9B0C21841B72A00B7F547 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		F4BA64481840F7C100DEA91A /* EPInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPInfoViewController.h; sourceTree = "<group>"; };
 		F4BA64491840F7C100DEA91A /* EPInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPInfoViewController.m; sourceTree = "<group>"; };
 		F4BA644B1841155400DEA91A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Mobidevland/Parse.framework; sourceTree = "<group>"; };
+		F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F4BA64381840E1F100DEA91A /* Security.framework in Frameworks */,
 				F4BA64361840E1E600DEA91A /* QuartzCore.framework in Frameworks */,
 				F4BA64341840E1DC00DEA91A /* MobileCoreServices.framework in Frameworks */,
+				F4D9B0C21841B72A00B7F547 /* FacebookSDK.framework in Frameworks */,
 				F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */,
 				F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */,
 				F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */,
@@ -150,6 +153,7 @@
 		D22714801840CFF10070E85D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4D9B0C11841B72A00B7F547 /* FacebookSDK.framework */,
 				F4BA644B1841155400DEA91A /* Parse.framework */,
 				F4BA64391840E22300DEA91A /* SystemConfiguration.framework */,
 				F4BA64371840E1F100DEA91A /* Security.framework */,
@@ -468,6 +472,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					Mobidevland,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";
@@ -487,6 +492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					Mobidevland,
+					/Users/maximecattet/Documents/Dev/iOS/Concours/Mobidevland/Mobidevland,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobidevland/Mobidevland-Prefix.pch";

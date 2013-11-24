@@ -19,6 +19,8 @@
     //add analytics
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
+    [PFFacebookUtils initializeFacebook];
+    
     PFQuery *query = [PFQuery queryWithClassName:@"ImageURL"];
     [query whereKey:@"url" notEqualTo:@" "];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
@@ -29,6 +31,7 @@
             [self addURLToPrefsWithID:[object objectId]];
         }
     }];
+    
     
     return YES;
 }
@@ -92,6 +95,15 @@
         [prefs setObject:[adURL absoluteString] forKey:@"adURL"];
         [prefs synchronize];
     }];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
 }
 
 @end

@@ -21,4 +21,5 @@
 }
 - (IBAction)checkOrUncheckCGU:(id)sender;
 - (IBAction)signUpPressed:(id)sender;
+- (IBAction)facebookSignUpPressed:(id)sender;
 @end

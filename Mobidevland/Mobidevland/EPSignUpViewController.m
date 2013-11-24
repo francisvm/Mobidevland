@@ -91,6 +91,47 @@
     }
 }
 
+- (IBAction)facebookSignUpPressed:(id)sender {
+    // The permissions requested from the user
+    NSArray *permissionsArray = @[ @"user_about_me", @"user_relationships", @"user_birthday", @"user_location"];
+    
+    // Login PFUser using Facebook
+    [PFFacebookUtils logInWithPermissions:permissionsArray block:^(PFUser *user, NSError *error) {
+        if (!user) {
+            if (!error) {
+                NSLog(@"Uh oh. The user cancelled the Facebook login.");
+            } else {
+                NSLog(@"Uh oh. An error occurred: %@", error);
+            }
+        } else if (user.isNew) {
+            NSLog(@"User with facebook signed up and logged in!");
+        } else {
+            NSLog(@"User with facebook logged in!");
+        }
+    }];
+}
+
+- (void)facebookRequest{
+    FBRequest *request = [FBRequest requestForMe];
+    
+    [request startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+        NSDictionary *userData = (NSDictionary *)result;
+        PFUser *user = [PFUser user];
+        user.username = userData[@"email"];
+        user.email = userData[@"email"];
+        user[@"prenom"] = userData[@"first_name"];
+        user[@"nom"] = userData[@"last_name"];
+        [PFUser logInWithUsernameInBackground:user.username password:user.password
+                                        block:^(PFUser *user, NSError *error) {
+                                            if (user) {
+                                                [self performSegueWithIdentifier:@"SignUpDone" sender:self];
+                                            } else {
+                                                // The login failed. Check error to see why.
+                                            }
+                                        }];
+    }];
+}
+
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 0) {
         NSLog(@"Cancel Tapped.");

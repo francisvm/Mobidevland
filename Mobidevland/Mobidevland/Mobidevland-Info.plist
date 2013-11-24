@@ -34,6 +34,10 @@
 	<false/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleDefault</string>
+	<key>FacebookAppID</key>
+	<string>545158315567970</string>
+	<key>FacebookDisplayName</key>
+	<string>Mobiledevland</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
