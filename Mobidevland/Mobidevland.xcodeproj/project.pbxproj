@@ -24,6 +24,10 @@
 		D22714AB1840CFF10070E85D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22714A91840CFF10070E85D /* InfoPlist.strings */; };
 		D22714AD1840CFF10070E85D /* MobidevlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22714AC1840CFF10070E85D /* MobidevlandTests.m */; };
 		F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */; };
+		F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF400184169EF005F8F98 /* EPSignInViewController.m */; };
+		F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */; };
+		F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF40618417E97005F8F98 /* EPJobsViewController.m */; };
+		F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */; };
 		F4BA642E1840E1B100DEA91A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */; };
 		F4BA64301840E1BB00DEA91A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */; };
 		F4BA64321840E1CD00DEA91A /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */; };
@@ -71,6 +75,14 @@
 		D22714AC1840CFF10070E85D /* MobidevlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobidevlandTests.m; sourceTree = "<group>"; };
 		F4850EF218411F3B0031A2B7 /* EPSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignUpViewController.h; sourceTree = "<group>"; };
 		F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignUpViewController.m; sourceTree = "<group>"; };
+		F48EF3FF184169EF005F8F98 /* EPSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPSignInViewController.h; sourceTree = "<group>"; };
+		F48EF400184169EF005F8F98 /* EPSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignInViewController.m; sourceTree = "<group>"; };
+		F48EF40218416DA8005F8F98 /* EPMyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPMyAccountViewController.h; sourceTree = "<group>"; };
+		F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPMyAccountViewController.m; sourceTree = "<group>"; };
+		F48EF40518417E97005F8F98 /* EPJobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPJobsViewController.h; sourceTree = "<group>"; };
+		F48EF40618417E97005F8F98 /* EPJobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPJobsViewController.m; sourceTree = "<group>"; };
+		F48EF4081841832B005F8F98 /* EPPersonalInformationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPersonalInformationsViewController.h; sourceTree = "<group>"; };
+		F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPersonalInformationsViewController.m; sourceTree = "<group>"; };
 		F4BA642D1840E1B100DEA91A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		F4BA642F1840E1BB00DEA91A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F4BA64311840E1CD00DEA91A /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
@@ -169,6 +181,14 @@
 				D221D5C71841103500793B37 /* EPAdViewController.xib */,
 				F4850EF218411F3B0031A2B7 /* EPSignUpViewController.h */,
 				F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */,
+				F48EF3FF184169EF005F8F98 /* EPSignInViewController.h */,
+				F48EF400184169EF005F8F98 /* EPSignInViewController.m */,
+				F48EF40218416DA8005F8F98 /* EPMyAccountViewController.h */,
+				F48EF40318416DA8005F8F98 /* EPMyAccountViewController.m */,
+				F48EF40518417E97005F8F98 /* EPJobsViewController.h */,
+				F48EF40618417E97005F8F98 /* EPJobsViewController.m */,
+				F48EF4081841832B005F8F98 /* EPPersonalInformationsViewController.h */,
+				F48EF4091841832B005F8F98 /* EPPersonalInformationsViewController.m */,
 				D22714991840CFF10070E85D /* Images.xcassets */,
 				F4BA643B1840E4E800DEA91A /* HomeImages.xcassets */,
 				D22714881840CFF10070E85D /* Supporting Files */,
@@ -308,10 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */,
 				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
 				D221D5CC184110E400793B37 /* EPViewController.m in Sources */,
+				F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */,
+				F48EF40718417E97005F8F98 /* EPJobsViewController.m in Sources */,
 				D221D5C81841103500793B37 /* EPAdViewController.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
+				F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */,
 				D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */,
 				F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */,
 			);

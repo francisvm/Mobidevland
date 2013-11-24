@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface EPViewController : UIViewController
+@interface EPViewController : UIViewController {
+    PFUser *currentUser;
+    IBOutlet UIButton *accountButton;
+}
+- (IBAction)accountButtonPressed:(id)sender;
+- (IBAction)myAccountPressed:(id)sender;
+- (IBAction)jobsPressed:(id)sender;
+- (IBAction)appelAProjetsPressed:(id)sender;
+- (IBAction)favorisPressed:(id)sender;
+- (IBAction)chatPressed:(id)sender;
 
 @end
