@@ -26,8 +26,6 @@
 		F401E26B1841CA78000C3DBC /* EPFavorisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F401E26A1841CA78000C3DBC /* EPFavorisViewController.m */; };
 		F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */; };
 		F486D4C81841C34F0058C1DE /* EPTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4C71841C34F0058C1DE /* EPTools.m */; };
-		F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */; };
-		F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */; };
 		F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F486D4CF1841C3B00058C1DE /* iCarousel.m */; };
 		F486D4D41841C3BF0058C1DE /* News.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F486D4D31841C3BF0058C1DE /* News.xcassets */; };
 		F48A4B7F1841C86600C1DCF1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48A4B7E1841C86600C1DCF1 /* FacebookSDK.framework */; };
@@ -47,6 +45,11 @@
 		F4E28F1C1841DBC5005C7D96 /* EPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F1B1841DBC5005C7D96 /* EPUser.m */; };
 		F4E28F1F1841DDA0005C7D96 /* EPTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F1E1841DDA0005C7D96 /* EPTouchViewController.m */; };
 		F4E28F211841E265005C7D96 /* touch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E28F201841E265005C7D96 /* touch.xcassets */; };
+		F4E28F2C1841FA7F005C7D96 /* EPNewsTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F231841FA7F005C7D96 /* EPNewsTimelineViewController.m */; };
+		F4E28F2D1841FA7F005C7D96 /* EPNewsTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F251841FA7F005C7D96 /* EPNewsTimelineCell.m */; };
+		F4E28F2E1841FA7F005C7D96 /* EPNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F271841FA7F005C7D96 /* EPNewsDetailViewController.m */; };
+		F4E28F2F1841FA7F005C7D96 /* EPNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F291841FA7F005C7D96 /* EPNewsItem.m */; };
+		F4E28F301841FA7F005C7D96 /* EPNewsPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28F2B1841FA7F005C7D96 /* EPNewsPhotoViewController.m */; };
 		F4E944181841CE3D0010DA18 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E944161841CE3D0010DA18 /* AddressBook.framework */; };
 		F4E944191841CE3D0010DA18 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E944171841CE3D0010DA18 /* AddressBookUI.framework */; };
 		F4E9441B1841CE640010DA18 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9441A1841CE640010DA18 /* CoreVideo.framework */; };
@@ -93,10 +96,6 @@
 		F4850EF318411F3B0031A2B7 /* EPSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPSignUpViewController.m; sourceTree = "<group>"; };
 		F486D4C61841C34F0058C1DE /* EPTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTools.h; sourceTree = "<group>"; };
 		F486D4C71841C34F0058C1DE /* EPTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTools.m; sourceTree = "<group>"; };
-		F486D4CA1841C3B00058C1DE /* EPNewsTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineViewController.h; sourceTree = "<group>"; };
-		F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineViewController.m; sourceTree = "<group>"; };
-		F486D4CC1841C3B00058C1DE /* EPNewsTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineCell.h; sourceTree = "<group>"; };
-		F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineCell.m; sourceTree = "<group>"; };
 		F486D4CE1841C3B00058C1DE /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F486D4CF1841C3B00058C1DE /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		F486D4D31841C3BF0058C1DE /* News.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = News.xcassets; sourceTree = "<group>"; };
@@ -123,6 +122,16 @@
 		F4E28F1D1841DDA0005C7D96 /* EPTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTouchViewController.h; sourceTree = "<group>"; };
 		F4E28F1E1841DDA0005C7D96 /* EPTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTouchViewController.m; sourceTree = "<group>"; };
 		F4E28F201841E265005C7D96 /* touch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = touch.xcassets; sourceTree = "<group>"; };
+		F4E28F221841FA7F005C7D96 /* EPNewsTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineViewController.h; sourceTree = "<group>"; };
+		F4E28F231841FA7F005C7D96 /* EPNewsTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineViewController.m; sourceTree = "<group>"; };
+		F4E28F241841FA7F005C7D96 /* EPNewsTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsTimelineCell.h; sourceTree = "<group>"; };
+		F4E28F251841FA7F005C7D96 /* EPNewsTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsTimelineCell.m; sourceTree = "<group>"; };
+		F4E28F261841FA7F005C7D96 /* EPNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsDetailViewController.h; sourceTree = "<group>"; };
+		F4E28F271841FA7F005C7D96 /* EPNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsDetailViewController.m; sourceTree = "<group>"; };
+		F4E28F281841FA7F005C7D96 /* EPNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsItem.h; sourceTree = "<group>"; };
+		F4E28F291841FA7F005C7D96 /* EPNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsItem.m; sourceTree = "<group>"; };
+		F4E28F2A1841FA7F005C7D96 /* EPNewsPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPNewsPhotoViewController.h; sourceTree = "<group>"; };
+		F4E28F2B1841FA7F005C7D96 /* EPNewsPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPNewsPhotoViewController.m; sourceTree = "<group>"; };
 		F4E944161841CE3D0010DA18 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		F4E944171841CE3D0010DA18 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		F4E9441A1841CE640010DA18 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -282,10 +291,16 @@
 		F486D4C91841C3A50058C1DE /* News */ = {
 			isa = PBXGroup;
 			children = (
-				F486D4CA1841C3B00058C1DE /* EPNewsTimelineViewController.h */,
-				F486D4CB1841C3B00058C1DE /* EPNewsTimelineViewController.m */,
-				F486D4CC1841C3B00058C1DE /* EPNewsTimelineCell.h */,
-				F486D4CD1841C3B00058C1DE /* EPNewsTimelineCell.m */,
+				F4E28F221841FA7F005C7D96 /* EPNewsTimelineViewController.h */,
+				F4E28F231841FA7F005C7D96 /* EPNewsTimelineViewController.m */,
+				F4E28F241841FA7F005C7D96 /* EPNewsTimelineCell.h */,
+				F4E28F251841FA7F005C7D96 /* EPNewsTimelineCell.m */,
+				F4E28F261841FA7F005C7D96 /* EPNewsDetailViewController.h */,
+				F4E28F271841FA7F005C7D96 /* EPNewsDetailViewController.m */,
+				F4E28F281841FA7F005C7D96 /* EPNewsItem.h */,
+				F4E28F291841FA7F005C7D96 /* EPNewsItem.m */,
+				F4E28F2A1841FA7F005C7D96 /* EPNewsPhotoViewController.h */,
+				F4E28F2B1841FA7F005C7D96 /* EPNewsPhotoViewController.m */,
 				F486D4CE1841C3B00058C1DE /* iCarousel.h */,
 				F486D4CF1841C3B00058C1DE /* iCarousel.m */,
 				F486D4D31841C3BF0058C1DE /* News.xcassets */,
@@ -400,19 +415,22 @@
 			files = (
 				F401E26B1841CA78000C3DBC /* EPFavorisViewController.m in Sources */,
 				F48EF40A1841832B005F8F98 /* EPPersonalInformationsViewController.m in Sources */,
-				F486D4D01841C3B00058C1DE /* EPNewsTimelineViewController.m in Sources */,
 				F486D4C81841C34F0058C1DE /* EPTools.m in Sources */,
 				F4E28F1C1841DBC5005C7D96 /* EPUser.m in Sources */,
+				F4E28F301841FA7F005C7D96 /* EPNewsPhotoViewController.m in Sources */,
 				F4BA644A1840F7C100DEA91A /* EPInfoViewController.m in Sources */,
 				D221D5CC184110E400793B37 /* EPViewController.m in Sources */,
+				F4E28F2F1841FA7F005C7D96 /* EPNewsItem.m in Sources */,
 				F486D4D21841C3B00058C1DE /* iCarousel.m in Sources */,
+				F4E28F2E1841FA7F005C7D96 /* EPNewsDetailViewController.m in Sources */,
 				F48EF401184169EF005F8F98 /* EPSignInViewController.m in Sources */,
+				F4E28F2D1841FA7F005C7D96 /* EPNewsTimelineCell.m in Sources */,
 				F4E28F1F1841DDA0005C7D96 /* EPTouchViewController.m in Sources */,
 				D221D5C81841103500793B37 /* EPAdViewController.m in Sources */,
-				F486D4D11841C3B00058C1DE /* EPNewsTimelineCell.m in Sources */,
 				D227148E1840CFF10070E85D /* main.m in Sources */,
 				F48EF40418416DA8005F8F98 /* EPMyAccountViewController.m in Sources */,
 				D22714921840CFF10070E85D /* EPAppDelegate.m in Sources */,
+				F4E28F2C1841FA7F005C7D96 /* EPNewsTimelineViewController.m in Sources */,
 				F4850EF418411F3B0031A2B7 /* EPSignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

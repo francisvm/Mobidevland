@@ -11,6 +11,8 @@
 #import "iCarousel.h"
 #import "EPTools.h"
 #import <Parse/Parse.h>
+#import "EPNewsItem.h"
+#import "EPNewsDetailViewController.h"
 
 @interface EPNewsTimelineViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,iCarouselDataSource, iCarouselDelegate>
 

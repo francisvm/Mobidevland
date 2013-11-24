@@ -20,4 +20,8 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
 
+@property (strong, nonatomic) IBOutlet NSString *htmlURL;
+
+@property (strong, nonatomic) IBOutlet NSString *objectID;
+
 @end

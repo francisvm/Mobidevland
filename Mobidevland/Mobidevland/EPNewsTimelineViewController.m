@@ -74,6 +74,7 @@
     PFObject *object = [dataArray objectAtIndex:indexPath.row];
     NSString *title = object[@"title"];
     NSString *description = object[@"description"];
+    NSString *htmlURL = object[@"htmlURL"];
     
     NSDateFormatter *df = [[NSDateFormatter alloc] init];
     [df setDateFormat:@"dd-MM-yyy"];
@@ -96,6 +97,8 @@
     [cell.descriptionLabel setText:description];
     [cell.dateLabel setText:date];
     [cell.imgView setImage:image];
+    cell.htmlURL = htmlURL;
+    cell.objectID = object.objectId;
     
     return cell;
 }
@@ -155,6 +158,16 @@
 
 - (void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index {
     //add code when cell is selected
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    EPNewsTimelineCell *cell = (EPNewsTimelineCell*)sender;
+    EPNewsItem *newsItem = [[EPNewsItem alloc] initWithDate:[cell dateLabel].text title:[cell titleLabel].text image:[cell imgView].image htmlURL:[cell htmlURL] objectID:[cell objectID]];
+    
+    EPNewsDetailViewController *destination = segue.destinationViewController;
+    
+    destination.newsItem = newsItem;
 }
 
 - (void)didReceiveMemoryWarning
