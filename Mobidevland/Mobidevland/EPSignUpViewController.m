@@ -105,6 +105,7 @@
             }
         } else if (user.isNew) {
             NSLog(@"User with facebook signed up and logged in!");
+            [self facebookDataOnPFUser:user];
             [self performSegueWithIdentifier:@"SignUpDone" sender:self];
         } else {
             NSLog(@"User with facebook logged in!");
@@ -113,24 +114,18 @@
     }];
 }
 
-- (void)facebookRequest{
+- (void)facebookDataOnPFUser:(PFUser*)user{
     FBRequest *request = [FBRequest requestForMe];
     
     [request startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
-        NSDictionary *userData = (NSDictionary *)result;
-        PFUser *user = [PFUser user];
-        user.username = userData[@"email"];
-        user.email = userData[@"email"];
-        user[@"prenom"] = userData[@"first_name"];
-        user[@"nom"] = userData[@"last_name"];
-        [PFUser logInWithUsernameInBackground:user.username password:user.password
-                                        block:^(PFUser *user, NSError *error) {
-                                            if (user) {
-                                                [self performSegueWithIdentifier:@"SignUpDone" sender:self];
-                                            } else {
-                                                // The login failed. Check error to see why.
-                                            }
-                                        }];
+        if (!error) {
+            NSDictionary *userData = (NSDictionary *)result;
+            
+            user[@"nom"] = userData[@"last_name"];
+            user[@"prenom"] = userData[@"first_name"];
+            user.email = userData[@"email"];
+            user.username = userData[@"email"];
+        }
     }];
 }
 
